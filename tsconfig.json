@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "strict": false,
+    "declaration": false,
+    "noImplicitAny": false,
+    "sourceMap": true,
+    "jsx": "react",
+    "noLib": false,
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "paths": {
+      "#*": ["./src/*"]
+    }
+  },
+  "include": [
+    "./src/**/*",
+    "./config/test/config.d.ts",
+    "./config/test/setup.ts"
+  ]
+}
