@@ -11,6 +11,7 @@
     "type-check": "tsc --noEmit",
     "type-check:watch": "npm run type-check -- --watch",
     "test": "vitest -c ./config/test/config.ts",
+    "test:ci": "vitest run -c ./config/test/config.ts",
     "clean": "rimraf dist"
   },
   "imports": {
